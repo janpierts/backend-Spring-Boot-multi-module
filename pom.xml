@@ -9,25 +9,26 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rj</groupId>
-	<artifactId>MONOLIT-MODULES</artifactId>
+	<artifactId>backend-Spring-Boot-multi-module</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>MONOLIT-MODULES</name>
+	<name>backend-Spring-Boot-multi-module</name>
 	<description>Demo MONOLIT-MODULES API REST Clean arquitecture</description>
 
 	<packaging>pom</packaging>
 
 	<properties>
 		<java.version>25</java.version>
-		<java-jwt.version>4.5.1</version>
-		<poi-ooxml.version>5.4.0</version>
-		<guava.version>33.0.0-jre</version>
+		<java-jwt.version>4.5.1</java-jwt.version>
+		<poi-ooxml.version>5.4.0</poi-ooxml.version>
+		<guava.version>33.0.0-jre</guava.version>
 	</properties>
 
 	<modules>
 		<module>domain</module>
-		<module>application</module>
-		<module>infrastructure</module>
-		<module>bootstrapping</module>
+		<!-- <module>utils</module> -->
+		<!-- <module>application</module> -->
+		<!-- <module>infrastructure</module> -->
+		<!-- <module>bootstrapping</module> -->
 	</modules>
 
 	<url/>
