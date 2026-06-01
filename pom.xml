@@ -25,7 +25,7 @@
 
 	<modules>
 		<module>domain</module>
-		<!-- <module>utils</module> -->
+		<module>shared</module>
 		<!-- <module>application</module> -->
 		<!-- <module>infrastructure</module> -->
 		<!-- <module>bootstrapping</module> -->
