@@ -1,4 +1,4 @@
-package com.rj.esqueleto.admin.crud.model;
+package com.rj.esqueleto.domain.admin.crud.model;
 
 import java.time.LocalDateTime;
 
